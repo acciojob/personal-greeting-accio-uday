@@ -1,12 +1,12 @@
-import React from "react";
-import GreetingInput from './GreetingInput';
+import React from 'react';
+import Greetinginput from './Greetinginput'; // or './components/GreetingInput' based on your path
 
 const App = () => {
   return (
     <div>
-        <GreetingInput />
+      <Greetinginput />
     </div>
   );
 };
 
-export default App
+export default App;
